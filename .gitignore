@@ -1,0 +1,15 @@
+
+# devDependencies
+node_modules
+gulpfile.js
+
+# dependencies
+Yomi.css
+Yomi.reset.css
+Yomi.js
+
+# author
+author.png
+
+yarn.lock
+yarn-error.log
