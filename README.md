@@ -1,0 +1,2 @@
+# Yomi
+theme for typecho.
