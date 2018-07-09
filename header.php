@@ -19,9 +19,9 @@
     <meta property="og:site_name" content="<?php $this->options->title() ?>" />
     <meta property="og:description" content=" <?php $this->description() ?>" />
 	<link rel="icon" href="<?php if($this->options->fav()): $this->options->fav(); else: $this->options->themeUrl('./favicon.ico');endif; ?>"/>
-    <link rel="manifest" href="<?php $this->options->themeUrl('manifest.json'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('style/Yomi.reset.min.css'); ?>" />
-    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('style/Yomi.min.css'); ?>" />
+    <!-- <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('style/Yomi.min.css'); ?>" /> -->
+    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('Yomi.css'); ?>" />
     <?php if(in_array('Prism', $this->options->effect)): ?>
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('prism/prism.min.css'); ?>" />
 	<?php endif; ?>

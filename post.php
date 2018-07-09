@@ -3,11 +3,11 @@
 
 <div id="main" role="main">
     <article class="post">
-        <h2 class="post-title"><?php $this->title() ?></h2>
         <ul class="post-meta">
-            <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date(); ?></time></li>
-            <li><?php _e('PV：'); ?><?php if(isset($this->fields->viewsNum)){ $this->fields->viewsNum(); } ?></li>
+            <li><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date(); ?></time></li>
+            <li><?php _e('浏览量：'); ?><?php if(isset($this->fields->viewsNum)){ $this->fields->viewsNum(); } ?></li>
         </ul>
+        <h2 class="post-title"><?php $this->title() ?></h2>
         <div class="post-content">
             <?php  $this->content(); ?>
         </div>
